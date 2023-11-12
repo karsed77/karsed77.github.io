@@ -155,7 +155,6 @@ function reactiverBoutonsLettres() {
 function nouveauJeu() {
   // on réinitialise le jeu
   motADeviner = genererMot();
-  console.log(motADeviner);
   motDecoupe = decouperMot(motADeviner);
   resteVie = totalvie;
   reactiverBoutonsLettres();
