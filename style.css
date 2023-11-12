@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
 }
 
-body{
+body{ 
     margin: 0;
     padding: 0 10px;
     height: 100vh;
@@ -15,8 +15,6 @@ body{
     display: flex  ;
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
-
-
 
 header{
     display: flex;
@@ -116,16 +114,14 @@ header button:active {
 
 .motTrouver{
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     padding-top: 20px;
     align-self: center;
     font-size: 50px;
     color:rgb(30, 139, 30);
-    text-shadow: 1px 4px 5px black;
+    text-shadow: 5px 3px 5px black;
 
 }
-
-
 
 .images{
     background-size : cover; 
@@ -134,7 +130,6 @@ header button:active {
     height: 110%;
 }
 
-
 .gameWin {
     background-image: url('images/gameWin.png');
     background-size: cover;
@@ -142,7 +137,6 @@ header button:active {
     background-position: center;
     transition: all 2s;
   }
-
 
 .keyboard{
     text-align: center;
@@ -181,17 +175,10 @@ header button:active {
     background: none; 
 }
 
-
-
-
-
 /* *********************** FOOTER *********************************** */
-
-
 footer{
     display: flex; 
 }
-
 .flex-center {
   align-items: center;
   justify-content: center;

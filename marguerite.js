@@ -31,6 +31,8 @@ const motsPendu = [
   "COURGETTE",
   "AUBERGINE",
   "BROCOLI",
+  "CHOUX",
+  "FIGUE",
   "PATATE",
   "CONCOMBRE",
   "RADIS",
