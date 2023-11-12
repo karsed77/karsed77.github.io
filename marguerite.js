@@ -186,6 +186,7 @@ function initalisationApp() {
         // mauvaise lettre trouvé par le joueur (on affiche l'image) et on enlève une vie
         resteVie--;
         bouton.disabled = true;
+        verifier.disabled = true;
         afficheVie();
         afficheImageMarguerite();
         if (resteVie === 0) {
